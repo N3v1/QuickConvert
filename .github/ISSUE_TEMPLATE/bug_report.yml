@@ -1,6 +1,6 @@
 name: 🔴 Bug report
 description: Something is not working as expected.
-title: 🔴 BUG: <bug name>
+title: 🔴 <bug name>
 labels: bug
 
 body:
