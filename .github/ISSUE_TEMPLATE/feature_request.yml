@@ -5,16 +5,16 @@ title: ✨ <feature title>
 labels: enhancement
 
 body:
-- type: markdown
-    attributes:
+    - type: markdown
+      attributes:
       value: |
         Thanks for taking the time to fill out this feature request!!!
-  - type: textarea
-    attributes:
+    - type: textarea
+      attributes:
       label: Description
       placeholder: >-
         A clear and concise description of what you would like to happen...
-    validations:
+      validations:
       required: true
       
   - type: textarea
