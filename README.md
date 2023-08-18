@@ -1,6 +1,6 @@
 <p align="center">
   <img src="documentation/img/QuickConverter_beta.png" height="128">
-  <h1 align="center">Code Converter for iOS and MacOS</h1>
+  <h1 align="center">Quick Convert for iOS and MacOS</h1>
 </p>
 
 <!--
