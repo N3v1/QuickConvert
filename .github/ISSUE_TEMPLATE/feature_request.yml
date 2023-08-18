@@ -5,6 +5,10 @@ title: ✨ <feature title>
 labels: enhancement
 
 body:
+- type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!!!
   - type: textarea
     attributes:
       label: Description
