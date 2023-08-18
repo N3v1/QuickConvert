@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var selection: Tab = .home
     
+    // Create enum for the Tab bar buttons
     enum Tab {
         case list
         case home
