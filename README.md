@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="documentation/img/QuickConverter_beta.png" height="128">
+  <img src="documentation/img/QuickConverter_alpha.png" height="128">
   <h1 align="center">Quick Convert for iOS and MacOS</h1>
 </p>
 
@@ -14,7 +14,7 @@
 </p>
 -->
 
-QuickConvert is a converter app built by the community, for the community, written entirely and unapologetically for macOS and iOS. Features include currency, measures, favourite most used measures, and more.
+QuickConvert is a converter app built by the community, for the community, written entirely and unapologetically for macOS and iOS. Features include currency, measures, favourite most used measures, and many more.
 
 <!--
 <img width="1012" alt="github-banner" src="https://user-images.githubusercontent.com/806104/194004176-3143d19f-1ad9-449c-bd41-8c4f9998f44b.png">
@@ -27,7 +27,16 @@ QuickConvert is a converter app built by the community, for the community, writt
 [![Discord Badge](https://img.shields.io/discord/951544472238444645?color=5865F2&label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/vChUXVf9Em)
 -->
 
-| :warning: | QuickConverter is currently in development and not yet ready for production use. You are welcome to test the latest [alpha build]() at your own risk soon. Please leave any feedback [here](https://github.com/N3v1/QuickConvert/issues). |
+| :warning: | QuickConvert is currently in development and not yet ready for production use. You are welcome to test the latest [alpha build]() at your own risk soon. Please leave any feedback [here](https://github.com/N3v1/QuickConvert/issues). |
 | - |:-|
 
 ## Table of Content
+1. [Contributing](#contributing)
+2. [LICENSE](#license)
+
+
+## Contributing
+If you would like to contribute to this project, We welcome pull requests. Please ensure that your changes are well-documented and maintain clean, readable code. See [**`Contributing.md`**](CONTRIBUTING.md).
+
+## LICENSE
+Quick Convert is licensed under the [**Apache 2.0 license**](http://www.apache.org/licenses/). See [**`LICENSE`**](LICENSE).
