@@ -18,6 +18,9 @@
 		38A68A542A90B5E500C2320D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A532A90B5E500C2320D /* SettingsView.swift */; };
 		38A68A582A90B89100C2320D /* SettingsOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A572A90B89100C2320D /* SettingsOptionViewModel.swift */; };
 		38A68A5A2A90BB6300C2320D /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A592A90BB6300C2320D /* Documentation.docc */; };
+		38A68A5C2A90BEED00C2320D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A5B2A90BEED00C2320D /* AboutView.swift */; };
+		38A68A602A90C09400C2320D /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A5F2A90C09400C2320D /* IGButtonModifier.swift */; };
+		38A68A622A90C29900C2320D /* AcknowledgementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A612A90C29900C2320D /* AcknowledgementsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		38A68A532A90B5E500C2320D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		38A68A572A90B89100C2320D /* SettingsOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptionViewModel.swift; sourceTree = "<group>"; };
 		38A68A592A90BB6300C2320D /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		38A68A5B2A90BEED00C2320D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		38A68A5F2A90C09400C2320D /* IGButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGButtonModifier.swift; sourceTree = "<group>"; };
+		38A68A612A90C29900C2320D /* AcknowledgementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		38009E6F2A8FD0DC0048F5B5 /* QuickConvert */ = {
 			isa = PBXGroup;
 			children = (
+				38A68A5D2A90C01F00C2320D /* Extensions */,
 				38A07BE62A900354003C6B68 /* App */,
 				38A07BE72A900365003C6B68 /* Core */,
 				38A07BE82A90037C003C6B68 /* Resources */,
@@ -95,6 +102,7 @@
 		38A07BE72A900365003C6B68 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				38A68A5E2A90C05200C2320D /* Compoments */,
 				38A68A522A90B5D600C2320D /* Settings */,
 				38A68A4C2A90AE5700C2320D /* ListConv */,
 				38A07BF52A900C97003C6B68 /* Favourite */,
@@ -149,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				38A68A532A90B5E500C2320D /* SettingsView.swift */,
+				38A68A5B2A90BEED00C2320D /* AboutView.swift */,
+				38A68A612A90C29900C2320D /* AcknowledgementsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,6 +169,21 @@
 				38A68A572A90B89100C2320D /* SettingsOptionViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		38A68A5D2A90C01F00C2320D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38A68A5E2A90C05200C2320D /* Compoments */ = {
+			isa = PBXGroup;
+			children = (
+				38A68A5F2A90C09400C2320D /* IGButtonModifier.swift */,
+			);
+			path = Compoments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A68A5C2A90BEED00C2320D /* AboutView.swift in Sources */,
+				38A68A622A90C29900C2320D /* AcknowledgementsView.swift in Sources */,
+				38A68A602A90C09400C2320D /* IGButtonModifier.swift in Sources */,
 				38A68A542A90B5E500C2320D /* SettingsView.swift in Sources */,
 				38009E732A8FD0DC0048F5B5 /* ContentView.swift in Sources */,
 				38A68A5A2A90BB6300C2320D /* Documentation.docc in Sources */,
