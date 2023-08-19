@@ -15,6 +15,7 @@
 		38A68A482A90A0C900C2320D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38A68A4A2A90A0C900C2320D /* Localizable.strings */; };
 		38A68A4E2A90AE7800C2320D /* OptionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A4D2A90AE7800C2320D /* OptionListView.swift */; };
 		38A68A512A90AF4000C2320D /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A502A90AF4000C2320D /* FavouriteView.swift */; };
+		38A68A542A90B5E500C2320D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A532A90B5E500C2320D /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		38A68A4B2A90A0CF00C2320D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		38A68A4D2A90AE7800C2320D /* OptionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionListView.swift; sourceTree = "<group>"; };
 		38A68A502A90AF4000C2320D /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		38A68A532A90B5E500C2320D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		38A07BE72A900365003C6B68 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				38A68A522A90B5D600C2320D /* Settings */,
 				38A68A4C2A90AE5700C2320D /* ListConv */,
 				38A07BF52A900C97003C6B68 /* Favourite */,
 				38A07BE92A9003B0003C6B68 /* Root */,
@@ -126,6 +129,14 @@
 				38A68A4D2A90AE7800C2320D /* OptionListView.swift */,
 			);
 			path = ListConv;
+			sourceTree = "<group>";
+		};
+		38A68A522A90B5D600C2320D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				38A68A532A90B5E500C2320D /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A68A542A90B5E500C2320D /* SettingsView.swift in Sources */,
 				38009E732A8FD0DC0048F5B5 /* ContentView.swift in Sources */,
 				38009E712A8FD0DC0048F5B5 /* QuickConvertApp.swift in Sources */,
 				38A68A512A90AF4000C2320D /* FavouriteView.swift in Sources */,
