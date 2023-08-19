@@ -8,49 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection: Tab = .home
+    @State private var selection: Tab = .Categories
     
     // Create enum for the Tab bar buttons
     enum Tab {
-        case list
-        case home
+        case Categories
         case favourite
-        case conversion
     }
     
     var body: some View {
-        NavigationStack {
+//        NavigationStack {
             TabView(selection: $selection) {
-                OptionsList()
+                OptionListView()
                     .tabItem {
                         Label("List", systemImage: "list.bullet")
                     }
-                    .tag(Tab.list)
-                
-                HomeView()
-                    .tabItem {
-                        Label("Home", systemImage: "house")
-                    }
-                    .tag(Tab.home)
+                    .tag(Tab.Categories)
 
-                HomeView()
+                FavouriteView()
                     .tabItem {
                         Label("Favourite", systemImage: "heart")
                     }
                     .tag(Tab.favourite)
-                
-                ConvertionView()
-                    .tabItem {
-                        Label("Convertion", systemImage: "equal.square.fill")
-                    }
-                    .tag(Tab.conversion)
-                }
-            .navigationTitle("QuickConvert")
-            .navigationBarTitleDisplayMode(.automatic)
-        }
+            }
+//        }
     }
 }
 
 #Preview {
-    ContentView()
+        ContentView()
 }
