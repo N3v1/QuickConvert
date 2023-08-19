@@ -19,6 +19,13 @@ struct SettingsView: View {
                         ForEach(SettingsOptionsViewModel.allCases) { option in
                             HStack {
                                 // TODO: Create Buttons and their pages
+                                /*
+                                 Hi everyone,
+                                 Please make the items clickable, and link to their pages (files see items folder) and the about file see in this folder
+                                 
+                                 Thanks, NH
+                                 */
+                                
                                 Image(systemName: option.imageName)
                                     .resizable()
                                     .frame(width: 24, height: 24)
@@ -29,6 +36,7 @@ struct SettingsView: View {
                             }
                         }
                     }
+                    
                     /*
                     Section {
                         Button("Log Out") {
@@ -56,7 +64,6 @@ struct SettingsView: View {
                 }
             }
             .navigationTitle("Settings")
-            
         }
     }
 }

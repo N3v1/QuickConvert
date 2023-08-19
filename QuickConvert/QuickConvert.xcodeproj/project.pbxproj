@@ -21,6 +21,8 @@
 		38A68A5C2A90BEED00C2320D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A5B2A90BEED00C2320D /* AboutView.swift */; };
 		38A68A602A90C09400C2320D /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A5F2A90C09400C2320D /* IGButtonModifier.swift */; };
 		38A68A622A90C29900C2320D /* AcknowledgementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A612A90C29900C2320D /* AcknowledgementsView.swift */; };
+		38A68A652A90C97200C2320D /* DarkModeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A642A90C97200C2320D /* DarkModeItemView.swift */; };
+		38A68A672A90C9B000C2320D /* AccessibilityItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68A662A90C9B000C2320D /* AccessibilityItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		38A68A5B2A90BEED00C2320D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		38A68A5F2A90C09400C2320D /* IGButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGButtonModifier.swift; sourceTree = "<group>"; };
 		38A68A612A90C29900C2320D /* AcknowledgementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsView.swift; sourceTree = "<group>"; };
+		38A68A642A90C97200C2320D /* DarkModeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeItemView.swift; sourceTree = "<group>"; };
+		38A68A662A90C9B000C2320D /* AccessibilityItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 		38A68A552A90B7D000C2320D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38A68A632A90C95400C2320D /* Items */,
 				38A68A532A90B5E500C2320D /* SettingsView.swift */,
 				38A68A5B2A90BEED00C2320D /* AboutView.swift */,
 				38A68A612A90C29900C2320D /* AcknowledgementsView.swift */,
@@ -184,6 +189,15 @@
 				38A68A5F2A90C09400C2320D /* IGButtonModifier.swift */,
 			);
 			path = Compoments;
+			sourceTree = "<group>";
+		};
+		38A68A632A90C95400C2320D /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				38A68A642A90C97200C2320D /* DarkModeItemView.swift */,
+				38A68A662A90C9B000C2320D /* AccessibilityItemView.swift */,
+			);
+			path = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +277,12 @@
 				38A68A622A90C29900C2320D /* AcknowledgementsView.swift in Sources */,
 				38A68A602A90C09400C2320D /* IGButtonModifier.swift in Sources */,
 				38A68A542A90B5E500C2320D /* SettingsView.swift in Sources */,
+				38A68A672A90C9B000C2320D /* AccessibilityItemView.swift in Sources */,
 				38009E732A8FD0DC0048F5B5 /* ContentView.swift in Sources */,
 				38A68A5A2A90BB6300C2320D /* Documentation.docc in Sources */,
 				38A68A582A90B89100C2320D /* SettingsOptionViewModel.swift in Sources */,
 				38009E712A8FD0DC0048F5B5 /* QuickConvertApp.swift in Sources */,
+				38A68A652A90C97200C2320D /* DarkModeItemView.swift in Sources */,
 				38A68A512A90AF4000C2320D /* FavouriteView.swift in Sources */,
 				38A68A4E2A90AE7800C2320D /* OptionListView.swift in Sources */,
 			);

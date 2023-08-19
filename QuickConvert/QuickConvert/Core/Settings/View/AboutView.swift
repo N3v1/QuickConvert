@@ -10,7 +10,12 @@ import SwiftUI
 struct AboutView: View {
     var body: some View {
         NavigationStack {
-            Text("Hello About")
+            VStack {
+                Text("Welcome to the Quick Convert About Section! Click on the buttons below to go a certain page. If you want to contribute to this app, click on the Contributers button.")
+                    .fontWeight(.semibold)
+                    .foregroundColor(.primary)
+            }
+            .padding()
             
             // acknowledgements
             Button(action: {
@@ -29,7 +34,11 @@ struct AboutView: View {
                     .bold()
                     .modifier(IGButtonModifier())
             })
-                .navigationTitle("About")
+            
+            Spacer()
+            
+            .navigationTitle("About")
+            
         }
     }
 }
