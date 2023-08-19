@@ -25,7 +25,8 @@ struct OptionListView: View {
                         Image(systemName: "gearshape")
                             .resizable()
                             .frame(width: 25, height: 25)
-                            .foregroundStyle(.black, Color(.systemGray5))
+                            //.foregroundStyle(.black, Color(.systemGray5))
+                            .foregroundColor(.primary)
                     }
                 }
             }
