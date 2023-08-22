@@ -1,19 +1,15 @@
-name: 🌟 Feature request
-description: Suggest an idea for this project.
-title: 🌟 <feature name>
+name: ✨ Feature request
+description: Suggest an idea for this project
+title: ✨ <feature title>
 labels: enhancement
 
 body:
-    - type: markdown
-      attributes:
-      value: |
-        Thanks for taking the time to fill out this feature request!!!
-    - type: textarea
-      attributes:
+  - type: textarea
+    attributes:
       label: Description
       placeholder: >-
         A clear and concise description of what you would like to happen...
-      validations:
+    validations:
       required: true
       
   - type: textarea
@@ -33,8 +29,8 @@ body:
       label: Screenshots
       placeholder: >-
         If applicable, please provide relevant screenshots or screen recordings...
-
-   - type: checkboxes
+        
+  - type: checkboxes
     id: new-bug
     attributes:
       label: Is there an existing issue for this?
