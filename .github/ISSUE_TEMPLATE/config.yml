@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
   - name: QuickConvert Support
     url: https://github.com/N3v1/QuickConvert/discussions

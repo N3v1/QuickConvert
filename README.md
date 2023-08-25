@@ -26,6 +26,8 @@ QuickConvert is a converter app built by the community, for the community, writt
 [![GitHub forks](https://img.shields.io/github/forks/CodeEditApp/CodeEdit?style=flat-square)](https://github.com/CodeEditApp/CodeEdit/forks)
 [![Discord Badge](https://img.shields.io/discord/951544472238444645?color=5865F2&label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/vChUXVf9Em)
 -->
+> **Note**\
+> The Quick Convert iOS App is currently in development. The macOS version is coming later
 
 | :warning: | QuickConvert is currently in development and not yet ready for production use. You are welcome to test the latest [alpha build]() at your own risk soon. Please leave any feedback [here](https://github.com/N3v1/QuickConvert/issues). |
 | - |:-|
